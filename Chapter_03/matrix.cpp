@@ -17,6 +17,7 @@ int main()
     cout << "Enter number of columns: " << "\n";
     cin >> number_of_columns;
 
+    
     // Define matrix
     vector<vector<int>> v1(number_of_rows, vector<int>(number_of_columns, 0));
 
